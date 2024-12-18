@@ -1,0 +1,4 @@
+diff a/.github/lockdown.yml b/.github/lockdown.yml	(rejected hunks)
+@@ -0 +0,2 @@
+ # Lock issues and pull requests
++lock: true
