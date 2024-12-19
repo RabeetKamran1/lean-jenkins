@@ -62,7 +62,8 @@ pipeline {
                         node_modules/.bin/serve -s build &
                         sleep 10
                         # npm start
-                        npx playwright test
+                        npx playwright test 
+                        
                         '''
                         // npx playwright test --report=html
                         // test -f buld/index.html
