@@ -6,7 +6,7 @@ pipeline {
     }*/
     stages {
         stage('Build') {
-            // some changes
+            // some changes again 12:36
             agent {
                 docker {
                     image 'node:18-alpine'
